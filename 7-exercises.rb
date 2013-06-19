@@ -65,13 +65,18 @@ puts''
 #Looping
 #To have a loop go on forever, while must be given a condition that is always true
 
+
 input = ''
+puts 'Time for some looping...'
 while input != 'bye'  #Until you say "bye", it will continue to loop the input
   puts input
   input = gets.chomp
 end
 puts 'Come again soon!'
+
 puts ''
+
+puts 'another round of looping...'
 while true
   input = gets.chomp
 	puts input
